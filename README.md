@@ -10,6 +10,8 @@
 
 Source: [source ZIP](mammotion-esp32-xbee-rtcm.zip) · ESP-IDF 4.4.8 · Based on [nebkat/esp32-xbee](https://github.com/nebkat/esp32-xbee), GPL-3.0.
 
+**Project credit:** OpenAI’s GPT-6.1 Sol, working through Codex, wrote the custom ESP32 firmware changes and created and published this GitHub repository.
+
 ## Hardware photos
 
 ![Open RTK301 housing with the ESP32 installed](images/rtk301-open-housing.jpg)
