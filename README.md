@@ -8,7 +8,7 @@
 
 **Observed RTK301 output:** MSM3 only for observations (`1073/1083/1093/1123`, every ~4 s), plus base position `1006` and receiver/antenna descriptor `1033` (~10 s). No MSM4 or `1230` seen.
 
-Source: [source ZIP](mammotion-esp32-xbee-rtcm.zip) · ESP-IDF 4.4.8 · Based on [nebkat/esp32-xbee](https://github.com/nebkat/esp32-xbee), GPL-3.0.
+Source for the same firmware: [source ZIP](mammotion-esp32-xbee-rtcm.zip) · ESP-IDF 4.4.8 · Based on [nebkat/esp32-xbee](https://github.com/nebkat/esp32-xbee), GPL-3.0.
 
 **Project credit:** OpenAI’s GPT-6.1 Sol, working through Codex, wrote the custom ESP32 firmware changes and created and published this GitHub repository.
 
