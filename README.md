@@ -9,3 +9,21 @@
 **Observed RTK301 output:** MSM3 only for observations (`1073/1083/1093/1123`, every ~4 s), plus base position `1006` and receiver/antenna descriptor `1033` (~10 s). No MSM4 or `1230` seen.
 
 Source: [source ZIP](mammotion-esp32-xbee-rtcm.zip) · ESP-IDF 4.4.8 · Based on [nebkat/esp32-xbee](https://github.com/nebkat/esp32-xbee), GPL-3.0.
+
+## Hardware photos
+
+![Open RTK301 housing with the ESP32 installed](images/rtk301-open-housing.jpg)
+
+*Open RTK301 housing with the ESP32 installed*
+
+![ESP32 and RTK301 bench wiring](images/esp32-bench-wiring.jpg)
+
+*ESP32 and RTK301 bench wiring*
+
+![RTK301 mainboard close-up](images/rtk301-mainboard.jpg)
+
+*RTK301 mainboard close-up*
+
+![Close-up of the board connections](images/rtk301-board-connections.jpg)
+
+*Close-up of the board connections*
