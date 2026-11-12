@@ -1,3 +1,10 @@
+project for taking out rtcm data from  mammotion rtk301,,  opened gps base theres main board  at side of um960 chip Tx Rx Ground pins , need only TX and Ground, wired to esp32 d16  and ground,  constant data avaible from those pins but mixed with nmea data so you cannot use this directly, i let ai  to modify nebkat/esp32 xbee  software just to add filter to pass only through rtcm data,  and thats it evrything else  works exactly same as original ntrip-master from nebkat software , it connects to my local wifi and sends rtcm data to rtk2go caster.   i tested with f9p rover  and got good results  rtk fix in ca 30 second from boot.   only limitation is that um960 broadcasts only msm3 data evry 4 seconds.   used cheap esp32 wroom32 and wide range dc to usb 5v adapter  since input voltage is about 28v  
+
+
+
+
+
+
 # Mammotion RTK301 → ESP32 → RTK2go
 
 1. **Wire** verified 3.3 V UART out → ESP32-WROOM-32 GPIO16, with common GND. Leave ESP32 TX disconnected. Input: **460800 8N1**.
